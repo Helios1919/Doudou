@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#FF6B35"
+        android:pathData="M54,54m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0"/>
+    
+    <!-- Bean Shape - Left -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,30 Q25,45 30,60 Q35,75 50,75 Q65,75 70,60 Q75,45 65,30 Q55,15 40,30 Q37,32 35,30 Z"/>
+    
+    <!-- Bean Shape - Right -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M73,30 Q63,45 68,60 Q73,75 88,75 Q103,75 108,60 Q113,45 103,30 Q93,15 78,30 Q75,32 73,30 Z"
+        android:translateX="-25"/>
+    
+    <!-- Search Icon Overlay -->
+    <path
+        android:fillColor="#FF6B35"
+        android:pathData="M58,48 m-10,0 a10,10 0,1 1,20 0 a10,10 0,1 1,-20 0"/>
+    
+    <!-- Search Handle -->
+    <path
+        android:fillColor="#FF6B35"
+        android:pathData="M66,56 L76,66"
+        android:strokeWidth="4"
+        android:strokeColor="#FF6B35"
+        android:strokeLineCap="round"/>
+        
+</vector>
